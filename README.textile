@@ -1,0 +1,5 @@
+"geronimod.github.com":http://geronimod.github.com
+
+Este es un simple proyecto de información personal.
+This is a simple personal information project.
+
