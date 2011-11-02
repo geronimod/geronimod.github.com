@@ -1,0 +1,75 @@
+
+.small-rounded-corners { 
+  behavior: url(stylesheets/border-radius.htc);
+  border-radius: 4px; 
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+}
+
+.top-small-rounded-corners { 
+  behavior: url(stylesheets/border-radius.htc);
+  border-radius: 4px 4px 0px 0px; 
+  -ms-border-radius: 4px 4px 0px 0px;
+  -moz-border-radius: 4px 4px 0px 0px;
+  -webkit-border-radius: 4px 4px 0px 0px;
+  -khtml-border-radius: 4px 4px 0px 0px;
+}
+
+.top-medium-rounded-corners { 
+  behavior: url(stylesheets/border-radius.htc);
+  border-radius: 10px 10px 0px 0px; 
+  -ms-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -khtml-border-radius: 10px 10px 0px 0px;
+}
+
+.medium-rounded-corners { 
+  behavior: url(stylesheets/border-radius.htc);
+  border-radius: 10px; 
+  -ms-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+}
+
+.big-rounded-corners { 
+  behavior: url(stylesheets/border-radius.htc);
+  border-radius: 18px; 
+  -ms-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -khtml-border-radius: 18px;
+}
+
+.shadow {
+	-moz-box-shadow: 2px 3px 4px #999;
+	-webkit-box-shadow: 2px 3px 4px #999;
+	box-shadow: 2px 3px 4px #999;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');
+}
+
+/* linear gradient from top */
+.grey-gradient {
+  background: #F5F5F5;
+  /* For WebKit (Safari, Google Chrome etc) */
+  background: -webkit-gradient(linear, left top, left bottom, from(#FCFCFC), to(#ECECEC));
+  /* For Mozilla/Gecko (Firefox etc) */
+  background: -moz-linear-gradient(270deg, #FCFCFC, #ECECEC) repeat scroll 0 0 transparent;
+  /* For Internet Explorer 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FCFCFC, endColorstr=#ECECEC);
+  /* For Internet Explorer 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FCFCFC, endColorstr=#ECECEC)";
+  /*opera > 11x*/
+  background-image: -o-linear-gradient(#FCFCFC, #ECECEC);
+}
+
+
+
+
+

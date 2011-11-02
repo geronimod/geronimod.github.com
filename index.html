@@ -1,5 +1,58 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang='es' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <title>
+      Hugo Ger&oacute;nimo D&iacute;az Profile
+    </title>
+    
+    <meta content='INDEX, ALL' name='robots'>
+    <meta content='Personal information' name='Description'>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    
+    <link href="stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/effects.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/cloud.css" media="screen" rel="stylesheet" type="text/css" />
+    
+    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nova+Mono' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="javascripts/jquery.mousewheel.min.js"></script>
+    <script src="javascripts/jquery.tagsphere.js"></script>
+    <script>
+        $(function() {
+            $('#ts1').tagcloud({centrex:250, centrey:250, init_motion_x:15, init_motion_y:15});
+            $('#ts2').tagcloud({centrex:250, centrey:250, init_motion_x:0, init_motion_y:16});
+        });
+    </script>
+
+  </head>
+
   <body>
-    <img src='images/hgd.png' />
+    <h1>Hugo Ger&oacute;nimo D&iacute;az <span class="arrow">=></span> <span class='dev'>Ruby on Rails developer</span></h1>
+    <div id="ts1" class="">
+      <span class='subheader'>skills</span>
+      <ul>
+        <li><a href="#1" style="color:#62779E;" rel="20">Ruby MRI 1.8.7 | 1.9.2, ree</a></li>
+        <li><a href="#3" rel="18">HTML 4/5</a></li>
+        <li><a href="#4" rel="18">CSS 2/3</a></li>
+        <li><a href="#2" style="color:#ED1111;" rel="20">Ruby on Rails 1.2.x | 2.x | 3.0</a></li>
+        <li><a href="#5" style="color:#79C975;" rel="20">JQuery 1.4.x</a></li>
+        <li><a href="#6" rel="15">Prototype 1.6</a></li>
+        <li><a href="#7" rel="15">MySQL 5.x</a></li>
+        <li><a href="#8" rel="8">PostgreSQL 8.x</a></li>
+        <li><a href="#8" rel="8">Oracle 10i</a></li>
+      </ul>
+    </div>
+    <div id="ts2">
+      <span class='subheader'>jobs, projects &amp; personal data</span>
+      <ul>
+        <li><a href="http://vlex.com" style="color:#0043B8;" rel="20" target='_blank'>Tecnical Leader in vLex.com</a></li>
+        <li><a href="http://www.hochmanconsultants.com/" style="color:#DE9610;" rel="20" target='_blank'>Freelancer in Hochman Consultants</a></li>
+        <li><a href="http://latirindumentaria.com" style="color:#555;" rel="18" target='_blank'>Developer of Latir project</a></li>
+        <li><a href="http://ar.linkedin.com/in/geronimod" style="color:#E30000;" rel="18" target='_blank'>LinkedIn Profile</a></li>
+      </ul>
+    </div>
   </body>
 </html>
