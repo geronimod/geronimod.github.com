@@ -33,6 +33,8 @@ h1, h2 {
   font-family: 'Voltaire';
 }
 
+h1 { color: #C93030 }
+
 section {
   margin-top: 20px;
   clear:both;
