@@ -1,13 +1,18 @@
 div#ts1, div#ts2 {
   float:left;
   margin: 0 auto 0 100px;
-  width:500px; 
-  height:500px;
+  width: 500px;
+  height: 450px;
   font-family: 'Nova Mono', cursive;
 }
 
 #ts1 li a {
-  text-decoration:none;
-  color:#666;
+  text-decoration: none;
+  color: #666;
 }
-ul {list-style-type:none;}
+
+#ts1 ul, #ts2 ul {
+  list-style-type: none;
+  margin-top: 0;
+  padding-top: 0;
+}

@@ -36,7 +36,6 @@ h1, h2 {
 .it { color: #C93030 }
 
 section {
-  margin-top: 20px;
   clear:both;
   float:left;
   width:100%;
@@ -63,7 +62,7 @@ section {
   color: #C93030;
   text-shadow: 1px 1px #606060;
   font-weight:normal;
-  
+
 }
 
 .subheader {
